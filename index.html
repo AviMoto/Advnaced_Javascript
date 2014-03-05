@@ -1,30 +1,39 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="motoGpApp">
+<html lang="en" ng-app="motoGpApp" ng-controller="RiderListCtrl">
 <head>
 <meta charset="UTF-8">
-<title>MotoGp Riders</title>
+<title ng-bind-template="MotoGp Riders: {{query}}">MotoGp Riders:</title>
 <script type="text/javascript" src="assest/js/lib/angular.min.js"></script>
 <script type="text/javascript" src="assest/js/app/controllers.js"></script>
 </head>
 
-<body ng-controller="RiderListCtrl">
-	<ul>
-		<li ng-repeat="rider in riders">
-			<a>
-				<img alt={{rider.name}} src={{rider.image}}>
-			</a>
-			<div>
-				<p>
-					<img alt={{rider.country.name}} src={{rider.country.image}}>
-					<span>{{rider.id}}</span>
-				</p>
-				<p>
-					<a>
-						{{rider.name}}
-					</a>
-				</p>
+<body >
+	<div class="container-fluid">
+		<div clsaa="row-fluid">
+			<div class="span2">
+				Search: <input ng-model="query">
 			</div>
-		</li>
-	</ul>
+			<div class="span10">
+				<ul class="riders">
+					<li ng-repeat="rider in riders | filter:query">
+						<a>
+							<img alt={{rider.name}} src={{rider.image}}>
+						</a>
+						<div>
+							<p>
+								<img alt={{rider.country.name}} src={{rider.country.image}}>
+								<span>{{rider.id}}</span>
+							</p>
+							<p>
+								<a>
+									{{rider.name}}
+								</a>
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
