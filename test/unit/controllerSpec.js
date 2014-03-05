@@ -2,12 +2,19 @@
 
 describe('MotoGpApp controllers', function() {
 	describe('RiderListCtrl', function(){
+		var scope, ctrl;
+		
 		beforeEach(module('motoGpApp'));
-		it('should create "riders" model with 2 riders', inject(function($controller) {
-			var scope = {}, 
+		beforeEach(inject(function($controller){
+			scope = {};
 			ctrl = $controller('RiderListCtrl', { $scope: scope });
-     
-			expect(scope.riders.length).toBe(2);
 		}));
+		it('should create "riders" model with 5 riders',function(){
+			expect(scope.riders.length).toBe(5);
+		});
+		
+		it('should set default value of order to be',function(){
+			expect(scope.orderProp).toBe('id');
+		});
     });
 });
