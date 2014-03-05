@@ -1,41 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="motoGpApp">
 <head>
 <meta charset="UTF-8">
 <title>MotoGp Riders</title>
 <script type="text/javascript" src="assest/js/lib/angular.min.js"></script>
+<script type="text/javascript" src="assest/js/app/controllers.js"></script>
 </head>
 
-<body>
+<body ng-controller="RiderListCtrl">
 	<ul>
-		<li>
+		<li ng-repeat="rider in riders">
 			<a>
-				<img alt="Valentino Rossi" src="assest/images/rider_158.jpg">
+				<img alt={{rider.name}} src={{rider.image}}>
 			</a>
 			<div>
 				<p>
-					<img alt="ITALY" src="assest/images/ITA.png">
-					<span>46</span>
+					<img alt={{rider.country.name}} src={{rider.country.image}}>
+					<span>{{rider.id}}</span>
 				</p>
 				<p>
 					<a>
-						Valentino Rossi
-					</a>
-				</p>
-			</div>
-		</li>
-		<li>
-			<a>
-				<img alt="Marc Marquez" src="assest/images/rider_7444.jpg">
-			</a>
-			<div>
-				<p>
-					<img alt="SPAIN" src="assest/images/SPA.png">
-					<span>93</span>
-				</p>
-				<p>
-					<a>
-						Marc Marquez
+						{{rider.name}}
 					</a>
 				</p>
 			</div>
