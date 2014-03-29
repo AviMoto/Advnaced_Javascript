@@ -1,0 +1,324 @@
+[
+	{
+	    "name" : "Valentino Rossi",
+	 	"image": "assest/images/rider_158.jpg",
+	    "country": {
+	        "name": "ITALY",
+	    	 "image": "assest/images/ITA.png"
+	    	 },
+	    "id": 46,
+	    "bike": "Ducati",
+	    "team": "Ducati Team",
+	    "birthdate": "23/03/1986",
+	    "weight": "66kg",
+	    "height": "168cm"
+	},
+	{
+	    "name" : "Marq Marquez",
+	 	"image": "assest/images/rider_7444.jpg",
+	    "country": {
+	        "name": "SPAIN",
+	    	 "image": "assest/images/SPA.png"
+	    	 },
+	    "id": 93,
+	    "bike": "Ducati",
+	    "team": "Ducati Team",
+	    "birthdate": "23/03/1986",
+	    "weight": "66kg",
+	    "height": "168cm"
+	},
+	{
+	    "name" : "Andrea Dovizioso",
+	 	"image": "assest/images/rider_5885.jpg",
+	    "country": {
+	        "name": "ITALY",
+	    	 "image": "assest/images/ITA.png"
+	    	 },
+	    "id": 4,
+	    "bike": "Ducati",
+	    "team": "Ducati Team",
+	    "birthdate": "23/03/1986",
+	    "weight": "66kg",
+	    "height": "168cm"
+	},
+	{
+	    "name" : "Colin Edwards",
+	 	"image": "assest/images/rider_6201.jpg",
+	    "country": {
+	        "name": "USA",
+	    	 "image": "assest/images/USA.png"
+	    	 },
+	    "id": 5,
+	    "bike": "Forward Yamaha",
+	    "team": "NGM Forward Racing",
+	    "birthdate": "27/02/1974",
+	    "weight": "69kg",
+	    "height": "179cm"
+	},
+	{
+	    "name" : "Stefan Bradl",
+	 	"image": "assest/images/rider_6267.jpg",
+	    "country": {
+	        "name": "GERMANY",
+	    	 "image": "assest/images/GER.png"
+	    	 },
+	    "id": 6,
+	    "bike": "Honda",
+	    "team": "LCR Honda MotoGP",
+	    "birthdate": "29/11/1989",
+	    "weight": "63kg",
+	    "height": "170cm"
+	},
+	{
+	    "name" : "Hiroshi Aoyama",
+	 	"image": "assest/images/rider_5863.jpg",
+	    "country": {
+	        "name": "JAPAN",
+	    	 "image": "assest/images/JPN.png"
+	    	 },
+	    "id": 7,
+	    "bike": "Honda",
+	    "team": "Drive M7 Aspar",
+	    "birthdate": "25/10/1981",
+	    "weight": "57kg",
+	    "height": "169cm"
+	},
+	{
+	    "name" : "Hector Barbera",
+	 	"image": "assest/images/rider_6066.jpg",
+	    "country": {
+	        "name": "SPAIN",
+	    	 "image": "assest/images/SPA.png"
+	    	 },
+	    "id": 8,
+	    "bike": "Avintia",
+	    "team": "Avintia Racing",
+	    "birthdate": "02/11/1986",
+	    "weight": "65kg",
+	    "height": "170cm"
+	},
+	{
+	    "name" : "Danilo Petrucci",
+	 	"image": "assest/images/rider_8148.jpg",
+	    "country": {
+	        "name": "ITALY",
+	    	 "image": "assest/images/ITA.png"
+	    	 },
+	    "id": 9,
+	    "bike": "ART",
+	    "team": "IodaRacing Project",
+	    "birthdate": "24/10/1990",
+	    "weight": "76kg",
+	    "height": "181cm"
+	},
+	{
+	    "name" : "Karel Abraham",
+	 	"image": "assest/images/rider_6867.jpg",
+	    "country": {
+	        "name": "Czech Republic",
+	    	 "image": "assest/images/CZE.png"
+	    	 },
+	    "id": 17,
+	    "bike": "Honda",
+	    "team": "Cardion AB Motoracing",
+	    "birthdate": "02/01/1990",
+	    "weight": "72kg",
+	    "height": "181cm"
+	},
+	{
+	    "name" : "Alvaro Bautista",
+	 	"image": "assest/images/rider_4323.jpg",
+	    "country": {
+	        "name": "SPAIN",
+	    	 "image": "assest/images/SPA.png"
+	    	 },
+	    "id": 19,
+	    "bike": "Honda",
+	    "team": "GO&FUN Honda Gresini",
+	    "birthdate": "21/11/1984",
+	    "weight": "59kg",
+	    "height": "167cm"
+	},
+	{
+	    "name" : "Broc Parkes",
+	 	"image": "assest/images/rider_5623.jpg",
+	    "country": {
+	        "name": "AUSTRALIA",
+	    	 "image": "assest/images/AUS.png"
+	    	 },
+	    "id": 23,
+	    "bike": "PBM",
+	    "team": "Paul Bird Motorsport",
+	    "birthdate": "24/12/1981",
+	    "weight": "64kg",
+	    "height": "170cm"
+	},
+	{
+	    "name" : "Andrea Iannone",
+	 	"image": "assest/images/rider_5623.jpg",
+	    "country": {
+	        "name": "AUSTRALIA",
+	    	 "image": "assest/images/AUS.png"
+	    	 },
+	    "id": 29,
+	    "bike": "Ducati",
+	    "team": "Pramac Racing",
+	    "birthdate": "09/08/1989",
+	    "weight": "67kg",
+	    "height": "178cm"
+	},
+	{
+	    "name" : "Cal Crutchlow",
+	 	"image": "assest/images/rider_8010.jpg",
+	    "country": {
+	        "name": "UK",
+	    	 "image": "assest/images/GBR.png"
+	    	 },
+	    "id": 35,
+	    "bike": "Ducati",
+	    "team": "Ducati Team",
+	    "birthdate": "25/10/1985",
+	    "weight": "66kg",
+	    "height": "168cm"
+	},
+	{
+	    "name" : "Bradley Smith",
+	 	"image": "assest/images/rider_7030.jpg",
+	    "country": {
+	        "name": "UK",
+	    	 "image": "assest/images/GBR.png"
+	    	 },
+	    "id": 38,
+	    "bike": "Yamaha",
+	    "team": "Monster Yamaha Tech 3",
+	    "birthdate": "25/10/1985",
+	    "weight": "66kg",
+	    "height": "179cm"
+	},
+	{
+	    "name" : "Aleix Espargaro",
+	 	"image": "assest/images/rider_6854.jpg",
+	    "country": {
+	        "name": "SPAIN",
+	    	 "image": "assest/images/SPA.png"
+	    	 },
+	    "id": 41,
+	    "bike": "Forward Yamaha",
+	    "team": "NGM Forward Racing",
+	    "birthdate": "30/07/1989",
+	    "weight": "69kg",
+	    "height": "180cm"
+	},
+	{
+	    "name" : "Pol Espargaro",
+	 	"image": "assest/images/rider_7086.jpg",
+	    "country": {
+	        "name": "SPAIN",
+	    	 "image": "assest/images/SPA.png"
+	    	 },
+	    "id": 44,
+	    "bike": "Yamaha",
+	    "team": "Monster Yamaha Tech 3",
+	    "birthdate": "10/06/1991",
+	    "weight": "62kg",
+	    "height": "171cm"
+	},
+	{
+	    "name" : "Scott Redding",
+	 	"image": "assest/images/rider_7173.jpg",
+	    "country": {
+	        "name": "UK",
+	    	 "image": "assest/images/GBR.png"
+	    	 },
+	    "id": 45,
+	    "bike": "Honda",
+	    "team": "GO&FUN Honda Gresini",
+	    "birthdate": "04/01/1993",
+	    "weight": "74kg",
+	    "height": "184cm"
+	},
+	{
+	    "name" : "Mike Di Meglio",
+	 	"image": "assest/images/rider_6204.jpg",
+	    "country": {
+	        "name": "FRANCE",
+	    	 "image": "assest/images/FRA.png"
+	    	 },
+	    "id": 63,
+	    "bike": "Avintia",
+	    "team": "Avintia Racing",
+	    "birthdate": "17/01/1988",
+	    "weight": "69kg",
+	    "height": "171cm"
+	},
+	{
+	    "name" : "Yonny Hernandez",
+	 	"image": "assest/images/rider_7761.jpg",
+	    "country": {
+	        "name": "COLOMBIA",
+	    	 "image": "assest/images/COL.png"
+	    	 },
+	    "id": 68,
+	    "bike": "Ducati",
+	    "team": "Emergy T.I. Pramac Racing",
+	    "birthdate": "25/07/1988",
+	    "weight": "72kg",
+	    "height": "183cm"
+	},	
+	{
+	    "name" : "Dani Pedrosa",
+	 	"image": "assest/images/rider_5515.jpg",
+	    "country": {
+	        "name": "SPAIN",
+	    	 "image": "assest/images/SPA.png"
+	    	 },
+	    "id": 26,
+	    "bike": "Honda",
+	    "team": "Repsol Honda Team",
+	    "birthdate": "29/09/1985",
+	    "weight": "51kg",
+	    "height": "160cm"
+	},
+	{
+	    "name" : "Nicky Hayden",
+	 	"image": "assest/images/rider_6200.jpg",
+	    "country": {
+	        "name": "USA",
+	    	 "image": "assest/images/USA.png"
+	    	 },
+	    "id": 69,
+	    "bike": "Honda",
+	    "team": "Drive M7 Aspar",
+	    "birthdate": "30/07/1981",
+	    "weight": "68kg",
+	    "height": "173cm"
+	},
+	{
+	    "name" : "Michael Laverty",
+	 	"image": "assest/images/rider_8271.jpg",
+	    "country": {
+	        "name": "UK",
+	    	 "image": "assest/images/GBR.png"
+	    	 },
+	    "id": 70,
+	    "bike": "PBM",
+	    "team": "Paul Bird Motorsport",
+	    "birthdate": "07/06/1981",
+	    "weight": "63kg",
+	    "height": "172cm"
+	},
+	{
+	    "name" : "Jorge Lorenzo",
+	 	"image": "assest/images/rider_6060.jpg",
+	    "country": {
+	        "name": "SPAIN",
+	    	 "image": "assest/images/SPA.png"
+	    	 },
+	    "id": 99,
+	    "bike": "Yamaha",
+	    "team": "Yamaha Factory Racing",
+	    "birthdate": "04/05/1987",
+	    "weight": "65kg",
+	    "height": "172cm"
+	}
+]
