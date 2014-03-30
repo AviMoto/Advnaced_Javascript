@@ -1,46 +1,17 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="motoGpApp" ng-controller="RiderListCtrl">
+<html lang="en" ng-app="motoGpApp">
 <head>
 <meta charset="UTF-8">
 <title ng-bind-template="MotoGp Riders: {{query}}">MotoGp Riders:</title>
 <link rel="stylesheet" href="assest/css/app.css">
 <link rel="stylesheet" href="assest/css/bootstrap-responsive.min.css">
 <script type="text/javascript" src="assest/js/lib/angular.min.js"></script>
+<script type="text/javascript" src="assest/js/lib/angular-route.min.js"></script>
+<script type="text/javascript" src="assest/js/app/app.js"></script>
 <script type="text/javascript" src="assest/js/app/controllers.js"></script>
 </head>
 
 <body >
-	<div class="container-fluid">
-		<div clsaa="row-fluid">
-			<div class="span2">
-				Search: <input ng-model="query">
-				Sort By: <select ng-model="orderProp">
-					<option value="name">Name</option>
-					<option value="id">Rider Number</option>
-					<option value="country.name">Country</option>
-				</select>
-			</div>
-			<div class="span10">
-				<ul class="riders">
-					<li ng-repeat="rider in riders | filter:query | orderBy: orderProp">
-						<a>
-							<img alt={{rider.name}} src={{rider.image}}>
-						</a>
-						<div>
-							<p>
-								<img alt={{rider.country.name}} src={{rider.country.image}}>
-								<span>{{rider.id}}</span>
-							</p>
-							<p>
-								<a>
-									{{rider.name}}
-								</a>
-							</p>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
+	  <div ng-view></div>	
 </body>
 </html>
