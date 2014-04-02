@@ -1,1 +1,19 @@
-<div>The rider id is {{riderId}}</div>
+<!DOCTYPE html>
+<html>
+<article id="riderInfo">
+	<h1>{{rider.name}}</h1>
+	<figure>
+		<img alt="{{rider.name}}" ng-src="{{rider.image}}">
+		<figcaption>{{rider.name}}</figcaption>
+	</figure>
+		<figure id="flag">
+		<img alt="{{rider.country.name}}" ng-src="{{rider.country.image}}">		
+	</figure>
+	<p>Rider#: {{rider.id}}</p>
+	<p>Team: {{rider.team}}</p>
+	<p>Bike: {{rider.bike}}</p>
+	<p>Birthdate: {{rider.birthdate}}</p>
+	<p>Weight: {{rider.weight}}</p>
+	<p>Height: {{rider.height}}</p>
+</article>
+</html>

@@ -11,11 +11,11 @@
 		<div class="span10">
 			<ul class="riders">
 				<li ng-repeat="rider in riders | filter:query | orderBy: orderProp">
-					<a> <img alt="{{rider.name}}" src="{{rider.image}}">
+					<a> <img alt="{{rider.name}}" ng-src="{{rider.image}}">
 				</a>
 					<div>
 						<p>
-							<img alt="{{rider.country.name}}" src="{{rider.country.image}}">
+							<img alt="{{rider.country.name}}" ng-src="{{rider.country.image}}">
 							<span>{{rider.id}}</span>
 						</p>
 						<p>

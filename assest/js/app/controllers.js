@@ -9,6 +9,12 @@ motoGpControllers.controller('RiderListCtrl',['$scope', '$http', function($scope
 	$scope.orderProp = "id";
 }]);
 
-motoGpControllers.controller('RiderDetailsCtrl',['$scope','$routeParams',function($scope,$routeParams){
-	$scope.riderId = $routeParams.riderId;
+motoGpControllers.controller('RiderDetailsCtrl',['$scope','$routeParams','$http',function($scope,$routeParams,$http){
+	$http.get('data/riders.json').success(function(data){
+		for(var rider in data){
+			if(data[rider].id == $routeParams.riderId){
+				$scope.rider = data[rider];
+			}
+		}
+	});
 }]);
