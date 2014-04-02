@@ -15,5 +15,25 @@
 	<p>Birthdate: {{rider.birthdate}}</p>
 	<p>Weight: {{rider.weight}}</p>
 	<p>Height: {{rider.height}}</p>
+	<table>
+		<thead>
+			<tr>
+				<th>Pole position</th>
+				<th>Race Fastest Lap</th>
+				<th>Podium</th>
+				<th>GP victory</th>
+				<th>World Campionship</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>{{polePosition | checkmark}}</td>
+				<td>{{raceFastestLap | checkmark}}</td>
+				<td>{{podium | checkmark}}</td>
+				<td>{{gpVictory | checkmark}}</td>
+				<td>{{worldCampionship | checkmark}}</td>
+			</tr>
+		</tbody>
+	</table>
 </article>
 </html>
