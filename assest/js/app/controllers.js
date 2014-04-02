@@ -15,6 +15,7 @@ motoGpControllers.controller('RiderDetailsCtrl',['$scope','$routeParams','$http'
 		for(var rider in data){
 			if(data[rider].id == id){
 				$scope.rider = data[rider];
+				$scope.mainImageUrl = data[rider].image[0];
 			}
 		}
 	});
@@ -27,4 +28,7 @@ motoGpControllers.controller('RiderDetailsCtrl',['$scope','$routeParams','$http'
 			}
 		}
 	});
+	 $scope.setImage = function(imageUrl) {
+	      $scope.mainImageUrl = imageUrl;
+	    }
 }]);

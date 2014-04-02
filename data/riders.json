@@ -1,7 +1,9 @@
 [
 	{
 	    "name" : "Valentino Rossi",
-	 	"image": "assest/images/rider_158.jpg",
+	 	"image": [
+	 		"assest/images/rider_158.jpg",
+	 	],
 	    "country": {
 	        "name": "ITALY",
 	    	 "image": "assest/images/ITA.png"
@@ -15,7 +17,9 @@
 	},
 	{
 	    "name" : "Marq Marquez",
-	 	"image": "assest/images/rider_7444.jpg",
+	 	"image": [
+	 		"assest/images/rider_7444.jpg"
+	 	],
 	    "country": {
 	        "name": "SPAIN",
 	    	 "image": "assest/images/SPA.png"
@@ -29,7 +33,12 @@
 	},
 	{
 	    "name" : "Andrea Dovizioso",
-	 	"image": "assest/images/rider_5885.jpg",
+	 	"image": [
+	 		"assest/images/rider_5885.jpg",
+	 		"assest/images/4/Andrea_Dovizioso_2010_Qatar.jpg",
+	    	"assest/images/4/andrea-dovizioso.jpg",
+	    	"assest/images/4/andrea-dovizioso-repsol-honda-motogp.jpg"
+	 	],
 	    "country": {
 	        "name": "ITALY",
 	    	 "image": "assest/images/ITA.png"
@@ -39,11 +48,13 @@
 	    "team": "Ducati Team",
 	    "birthdate": "23/03/1986",
 	    "weight": "66kg",
-	    "height": "168cm"
+	    "height": "168cm",
 	},
 	{
 	    "name" : "Colin Edwards",
-	 	"image": "assest/images/rider_6201.jpg",
+	 	"image": [
+	 		"assest/images/rider_6201.jpg"
+	 	],
 	    "country": {
 	        "name": "USA",
 	    	 "image": "assest/images/USA.png"
@@ -57,7 +68,9 @@
 	},
 	{
 	    "name" : "Stefan Bradl",
-	 	"image": "assest/images/rider_6267.jpg",
+	 	"image": [
+	 		"assest/images/rider_6267.jpg"
+	 	],
 	    "country": {
 	        "name": "GERMANY",
 	    	 "image": "assest/images/GER.png"
@@ -71,7 +84,9 @@
 	},
 	{
 	    "name" : "Hiroshi Aoyama",
-	 	"image": "assest/images/rider_5863.jpg",
+	 	"image": [
+	 		"assest/images/rider_5863.jpg"
+	 	],
 	    "country": {
 	        "name": "JAPAN",
 	    	 "image": "assest/images/JPN.png"
@@ -85,7 +100,9 @@
 	},
 	{
 	    "name" : "Hector Barbera",
-	 	"image": "assest/images/rider_6066.jpg",
+	 	"image": [
+	 		"assest/images/rider_6066.jpg"
+	 	],
 	    "country": {
 	        "name": "SPAIN",
 	    	 "image": "assest/images/SPA.png"
@@ -99,7 +116,9 @@
 	},
 	{
 	    "name" : "Danilo Petrucci",
-	 	"image": "assest/images/rider_8148.jpg",
+	 	"image": [
+	 		"assest/images/rider_8148.jpg"
+	 	],
 	    "country": {
 	        "name": "ITALY",
 	    	 "image": "assest/images/ITA.png"
