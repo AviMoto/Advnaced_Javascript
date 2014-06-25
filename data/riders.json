@@ -9,9 +9,9 @@
 	    	 "image": "assest/images/ITA.png"
 	    	 },
 	    "id": 46,
-	    "bike": "Ducati",
-	    "team": "Ducati Team",
-	    "birthdate": "23/03/1986",
+	    "bike": "Yamaha",
+	    "team": "Movistar Yamaha MotoGP",
+	    "birthdate": "16/02/1979",
 	    "weight": "66kg",
 	    "height": "168cm"
 	},
@@ -25,8 +25,8 @@
 	    	 "image": "assest/images/SPA.png"
 	    	 },
 	    "id": 93,
-	    "bike": "Ducati",
-	    "team": "Ducati Team",
+	    "bike": "Honda",
+	    "team": "Repsol Honda Team",
 	    "birthdate": "23/03/1986",
 	    "weight": "66kg",
 	    "height": "168cm"
