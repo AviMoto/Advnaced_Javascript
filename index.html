@@ -4,17 +4,23 @@
 <meta charset="UTF-8">
 <title ng-bind-template="MotoGp Riders: {{query}}">MotoGp Riders:</title>
 <link rel="stylesheet" href="assest/css/app.css">
+<link rel="stylesheet" href="assest/css/animations.css">
 <link rel="stylesheet" href="assest/css/bootstrap-responsive.min.css">
+<script type="text/javascript" src="assest/js/lib/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="assest/js/lib/angular.min.js"></script>
 <script type="text/javascript" src="assest/js/lib/angular-route.min.js"></script>
 <script type="text/javascript" src="assest/js/lib/angular-resource.min.js"></script>
+<script type="text/javascript" src="assest/js/lib/angular-animate.min.js"></script>
 <script type="text/javascript" src="assest/js/app/app.js"></script>
+<script type="text/javascript" src="assest/js/app/animations.js"></script>
 <script type="text/javascript" src="assest/js/app/controllers.js"></script>
 <script type="text/javascript" src="assest/js/app/filters.js"></script>
 <script type="text/javascript" src="assest/js/app/services.js"></script>
 </head>
 
 <body >
-	  <div ng-view></div>	
+    <div class="view-container">
+	   <div ng-view class="view-frame"></div>
+    </div>	
 </body>
 </html>

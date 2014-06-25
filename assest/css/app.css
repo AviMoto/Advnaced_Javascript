@@ -5,6 +5,10 @@
 .span10{
 	width:83.33%;
 }
+.span10 li{
+	float:left;
+	list-style-type: none;
+}
 #imageGallery img {
 	height:10em;
 	width:auto;

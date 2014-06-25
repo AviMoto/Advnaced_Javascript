@@ -2,6 +2,7 @@
 
 var motoGpApp = angular.module('motoGpApp',[
                                             'ngRoute',
+                                            'motoGpAnimations',
                                             'motoGpControllers',
                                             'motoGpFilters',
                                             'motoGpServices']);

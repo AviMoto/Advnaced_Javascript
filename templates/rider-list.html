@@ -10,7 +10,7 @@
 		</div>
 		<div class="span10">
 			<ul class="riders">
-				<li ng-repeat="rider in riders | filter:query | orderBy: orderProp">
+				<li ng-repeat="rider in riders | filter:query | orderBy: orderProp" class="thumbnail rider-listing">
 					<a href="#/riders/{{rider.id}}"> <img alt="{{rider.name}}" ng-src="{{rider.image[0]}}">
 				</a>
 					<div>

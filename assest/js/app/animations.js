@@ -1,0 +1,1 @@
+var motoGpAnimations = angular.module('motoGpAnimations',['ngAnimate']);
