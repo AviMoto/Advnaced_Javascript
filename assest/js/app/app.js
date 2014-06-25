@@ -3,7 +3,8 @@
 var motoGpApp = angular.module('motoGpApp',[
                                             'ngRoute',
                                             'motoGpControllers',
-                                            'motoGpFilters']);
+                                            'motoGpFilters',
+                                            'motoGpServices']);
 
 motoGpApp.config(['$routeProvider',function($routeProvider){
 	$routeProvider.when('/riders',{

@@ -11,7 +11,7 @@
 		<div class="span10">
 			<ul class="riders">
 				<li ng-repeat="rider in riders | filter:query | orderBy: orderProp">
-					<a> <img alt="{{rider.name}}" ng-src="{{mainImageUrl}}">
+					<a href="#/riders/{{rider.id}}"> <img alt="{{rider.name}}" ng-src="{{rider.image[0]}}">
 				</a>
 					<div>
 						<p>
@@ -19,7 +19,7 @@
 							<span>{{rider.id}}</span>
 						</p>
 						<p>
-							<a> {{rider.name}} </a>
+							<a href="#/riders/{{rider.id}}"> {{rider.name}} </a>
 						</p>
 					</div>
 				</li>

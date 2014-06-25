@@ -5,3 +5,18 @@
 .span10{
 	width:83.33%;
 }
+#imageGallery img {
+	height:10em;
+	width:auto;
+}
+#imageGallery li {
+	float:left;
+	list-style-type: none;
+}
+.clear {
+	clear: both;
+}
+#mainGalleryImage {
+	max-height:15em;
+	width:auto;
+}

@@ -3,17 +3,18 @@
 <article id="riderInfo">
 	<h1>{{rider.name}}</h1>
 	<figure>
-		<img alt="{{rider.name}}" ng-src="{{mainImageUrl}}">
+		<img alt="{{rider.name}}" ng-src="{{mainImageUrl}}" id="mainGalleryImage">
 		<figcaption>{{rider.name}}</figcaption>
 	</figure>
 		<figure id="flag">
 		<img alt="{{rider.country.name}}" ng-src="{{rider.country.image}}">		
 	</figure>
-	<ul>
+	<ul id="imageGallery">
 		<li ng-repeat="img in rider.image">
-			<img ng-src="{{img}}" ng-click="setImg(img)"/>
+			<img ng-src="{{img}}" ng-click="setImage(img)"/>
 		</li>
 	</ul>
+    <div class="clear"></div>
 	<p>Rider#: {{rider.id}}</p>
 	<p>Team: {{rider.team}}</p>
 	<p>Bike: {{rider.bike}}</p>

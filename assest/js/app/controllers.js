@@ -1,34 +1,34 @@
 'use strict';
 
-var motoGpControllers = angular.module('motoGpControllers',[]);
+var motoGpControllers = angular.module('motoGpControllers', []);
 
-motoGpControllers.controller('RiderListCtrl',['$scope', '$http', function($scope, $http){
-	$http.get('data/riders.json').success(function(data){
-		$scope.riders = data;
-	});
-	$scope.orderProp = "id";
-}]);
+motoGpControllers.controller('RiderListCtrl', [ '$scope', 'Rider',
+		function($scope, Rider) {
+			$scope.riders = Rider.query();
+			$scope.orderProp = "id";
+		} ]);
 
-motoGpControllers.controller('RiderDetailsCtrl',['$scope','$routeParams','$http',function($scope,$routeParams,$http){
-	var id = $routeParams.riderId;
-	$http.get('data/riders.json').success(function(data){
-		for(var rider in data){
-			if(data[rider].id == id){
-				$scope.rider = data[rider];
-				$scope.mainImageUrl = data[rider].image[0];
+motoGpControllers.controller('RiderDetailsCtrl', [ '$scope', '$routeParams',
+		'Rider', function($scope, $routeParams, Rider) {
+			var id = $routeParams.riderId;
+			$scope.riders = Rider.query(function(riders){
+				for ( var rider in riders) {
+					if (riders[rider].id == id) {
+						$scope.rider = riders[rider];
+						$scope.mainImageUrl = riders[rider].image[0];
+					}
+				}
+			});
+			
+			Rider.achiv({riderFile:'achievements'},function(achievments){for ( var achievment in achievments) {
+				if (achievments[achievment].indexOf(parseInt(id)) != -1) {
+					$scope[achievment] = true;
+				} else {
+					$scope[achievment] = false;
+				}
+			}})
+				
+			$scope.setImage = function(imageUrl) {
+				$scope.mainImageUrl = imageUrl;
 			}
-		}
-	});
-	$http.get('data/achievements.json').success(function(data){
-		for(var achievment in data){
-			if(data[achievment].indexOf(parseInt(id)) != -1){
-				$scope[achievment] = true;
-			} else {
-				$scope[achievment] = false;
-			}
-		}
-	});
-	 $scope.setImage = function(imageUrl) {
-	      $scope.mainImageUrl = imageUrl;
-	    }
-}]);
+		} ]);

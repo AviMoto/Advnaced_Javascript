@@ -2,7 +2,7 @@
 	{
 	    "name" : "Valentino Rossi",
 	 	"image": [
-	 		"assest/images/rider_158.jpg",
+	 		"assest/images/rider_158.jpg"
 	 	],
 	    "country": {
 	        "name": "ITALY",
@@ -48,7 +48,7 @@
 	    "team": "Ducati Team",
 	    "birthdate": "23/03/1986",
 	    "weight": "66kg",
-	    "height": "168cm",
+	    "height": "168cm"
 	},
 	{
 	    "name" : "Colin Edwards",
@@ -132,7 +132,9 @@
 	},
 	{
 	    "name" : "Karel Abraham",
-	 	"image": "assest/images/rider_6867.jpg",
+	 	"image": [
+	 	     "assest/images/rider_6867.jpg"
+	 	],
 	    "country": {
 	        "name": "Czech Republic",
 	    	 "image": "assest/images/CZE.png"
@@ -146,7 +148,7 @@
 	},
 	{
 	    "name" : "Alvaro Bautista",
-	 	"image": "assest/images/rider_4323.jpg",
+	 	"image": ["assest/images/rider_4323.jpg"],
 	    "country": {
 	        "name": "SPAIN",
 	    	 "image": "assest/images/SPA.png"
@@ -160,7 +162,7 @@
 	},
 	{
 	    "name" : "Broc Parkes",
-	 	"image": "assest/images/rider_5623.jpg",
+	 	"image": ["assest/images/rider_5623.jpg"],
 	    "country": {
 	        "name": "AUSTRALIA",
 	    	 "image": "assest/images/AUS.png"
@@ -174,7 +176,7 @@
 	},
 	{
 	    "name" : "Andrea Iannone",
-	 	"image": "assest/images/rider_5623.jpg",
+	 	"image": ["assest/images/rider_5623.jpg"],
 	    "country": {
 	        "name": "AUSTRALIA",
 	    	 "image": "assest/images/AUS.png"
@@ -188,7 +190,7 @@
 	},
 	{
 	    "name" : "Cal Crutchlow",
-	 	"image": "assest/images/rider_8010.jpg",
+	 	"image": ["assest/images/rider_8010.jpg"],
 	    "country": {
 	        "name": "UK",
 	    	 "image": "assest/images/GBR.png"
@@ -202,7 +204,7 @@
 	},
 	{
 	    "name" : "Bradley Smith",
-	 	"image": "assest/images/rider_7030.jpg",
+	 	"image": ["assest/images/rider_7030.jpg"],
 	    "country": {
 	        "name": "UK",
 	    	 "image": "assest/images/GBR.png"
@@ -216,7 +218,7 @@
 	},
 	{
 	    "name" : "Aleix Espargaro",
-	 	"image": "assest/images/rider_6854.jpg",
+	 	"image": ["assest/images/rider_6854.jpg"],
 	    "country": {
 	        "name": "SPAIN",
 	    	 "image": "assest/images/SPA.png"
@@ -230,7 +232,7 @@
 	},
 	{
 	    "name" : "Pol Espargaro",
-	 	"image": "assest/images/rider_7086.jpg",
+	 	"image": ["assest/images/rider_7086.jpg"],
 	    "country": {
 	        "name": "SPAIN",
 	    	 "image": "assest/images/SPA.png"
@@ -244,7 +246,7 @@
 	},
 	{
 	    "name" : "Scott Redding",
-	 	"image": "assest/images/rider_7173.jpg",
+	 	"image": ["assest/images/rider_7173.jpg"],
 	    "country": {
 	        "name": "UK",
 	    	 "image": "assest/images/GBR.png"
@@ -258,7 +260,7 @@
 	},
 	{
 	    "name" : "Mike Di Meglio",
-	 	"image": "assest/images/rider_6204.jpg",
+	 	"image": ["assest/images/rider_6204.jpg"],
 	    "country": {
 	        "name": "FRANCE",
 	    	 "image": "assest/images/FRA.png"
@@ -272,7 +274,7 @@
 	},
 	{
 	    "name" : "Yonny Hernandez",
-	 	"image": "assest/images/rider_7761.jpg",
+	 	"image": ["assest/images/rider_7761.jpg"],
 	    "country": {
 	        "name": "COLOMBIA",
 	    	 "image": "assest/images/COL.png"
@@ -286,7 +288,7 @@
 	},	
 	{
 	    "name" : "Dani Pedrosa",
-	 	"image": "assest/images/rider_5515.jpg",
+	 	"image": ["assest/images/rider_5515.jpg"],
 	    "country": {
 	        "name": "SPAIN",
 	    	 "image": "assest/images/SPA.png"
@@ -300,7 +302,7 @@
 	},
 	{
 	    "name" : "Nicky Hayden",
-	 	"image": "assest/images/rider_6200.jpg",
+	 	"image": ["assest/images/rider_6200.jpg"],
 	    "country": {
 	        "name": "USA",
 	    	 "image": "assest/images/USA.png"
@@ -314,7 +316,7 @@
 	},
 	{
 	    "name" : "Michael Laverty",
-	 	"image": "assest/images/rider_8271.jpg",
+	 	"image": ["assest/images/rider_8271.jpg"],
 	    "country": {
 	        "name": "UK",
 	    	 "image": "assest/images/GBR.png"
@@ -328,7 +330,7 @@
 	},
 	{
 	    "name" : "Jorge Lorenzo",
-	 	"image": "assest/images/rider_6060.jpg",
+	 	"image": ["assest/images/rider_6060.jpg"],
 	    "country": {
 	        "name": "SPAIN",
 	    	 "image": "assest/images/SPA.png"
