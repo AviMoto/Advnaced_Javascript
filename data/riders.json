@@ -2,31 +2,31 @@
 	{
 	    "name" : "Valentino Rossi",
 	 	"image": [
-	 		"assest/images/rider_158.jpg"
+	 		"assets/images/rider_158.jpg"
 	 	],
 	    "country": {
 	        "name": "ITALY",
-	    	 "image": "assest/images/ITA.png"
+	    	 "image": "assets/images/ITA.png"
 	    	 },
 	    "id": 46,
-	    "bike": "Yamaha",
-	    "team": "Movistar Yamaha MotoGP",
-	    "birthdate": "16/02/1979",
+	    "bike": "Ducati",
+	    "team": "Ducati Team",
+	    "birthdate": "23/03/1986",
 	    "weight": "66kg",
 	    "height": "168cm"
 	},
 	{
 	    "name" : "Marq Marquez",
 	 	"image": [
-	 		"assest/images/rider_7444.jpg"
+	 		"assets/images/rider_7444.jpg"
 	 	],
 	    "country": {
 	        "name": "SPAIN",
-	    	 "image": "assest/images/SPA.png"
+	    	 "image": "assets/images/SPA.png"
 	    	 },
 	    "id": 93,
-	    "bike": "Honda",
-	    "team": "Repsol Honda Team",
+	    "bike": "Ducati",
+	    "team": "Ducati Team",
 	    "birthdate": "23/03/1986",
 	    "weight": "66kg",
 	    "height": "168cm"
@@ -34,14 +34,14 @@
 	{
 	    "name" : "Andrea Dovizioso",
 	 	"image": [
-	 		"assest/images/rider_5885.jpg",
-	 		"assest/images/4/Andrea_Dovizioso_2010_Qatar.jpg",
-	    	"assest/images/4/andrea-dovizioso.jpg",
-	    	"assest/images/4/andrea-dovizioso-repsol-honda-motogp.jpg"
+	 		"assets/images/rider_5885.jpg",
+	 		"assets/images/4/Andrea_Dovizioso_2010_Qatar.jpg",
+	    	"assets/images/4/andrea-dovizioso.jpg",
+	    	"assets/images/4/andrea-dovizioso-repsol-honda-motogp.jpg"
 	 	],
 	    "country": {
 	        "name": "ITALY",
-	    	 "image": "assest/images/ITA.png"
+	    	 "image": "assets/images/ITA.png"
 	    	 },
 	    "id": 4,
 	    "bike": "Ducati",
@@ -53,11 +53,11 @@
 	{
 	    "name" : "Colin Edwards",
 	 	"image": [
-	 		"assest/images/rider_6201.jpg"
+	 		"assets/images/rider_6201.jpg"
 	 	],
 	    "country": {
 	        "name": "USA",
-	    	 "image": "assest/images/USA.png"
+	    	 "image": "assets/images/USA.png"
 	    	 },
 	    "id": 5,
 	    "bike": "Forward Yamaha",
@@ -69,11 +69,11 @@
 	{
 	    "name" : "Stefan Bradl",
 	 	"image": [
-	 		"assest/images/rider_6267.jpg"
+	 		"assets/images/rider_6267.jpg"
 	 	],
 	    "country": {
 	        "name": "GERMANY",
-	    	 "image": "assest/images/GER.png"
+	    	 "image": "assets/images/GER.png"
 	    	 },
 	    "id": 6,
 	    "bike": "Honda",
@@ -85,11 +85,11 @@
 	{
 	    "name" : "Hiroshi Aoyama",
 	 	"image": [
-	 		"assest/images/rider_5863.jpg"
+	 		"assets/images/rider_5863.jpg"
 	 	],
 	    "country": {
 	        "name": "JAPAN",
-	    	 "image": "assest/images/JPN.png"
+	    	 "image": "assets/images/JPN.png"
 	    	 },
 	    "id": 7,
 	    "bike": "Honda",
@@ -101,11 +101,11 @@
 	{
 	    "name" : "Hector Barbera",
 	 	"image": [
-	 		"assest/images/rider_6066.jpg"
+	 		"assets/images/rider_6066.jpg"
 	 	],
 	    "country": {
 	        "name": "SPAIN",
-	    	 "image": "assest/images/SPA.png"
+	    	 "image": "assets/images/SPA.png"
 	    	 },
 	    "id": 8,
 	    "bike": "Avintia",
@@ -117,11 +117,11 @@
 	{
 	    "name" : "Danilo Petrucci",
 	 	"image": [
-	 		"assest/images/rider_8148.jpg"
+	 		"assets/images/rider_8148.jpg"
 	 	],
 	    "country": {
 	        "name": "ITALY",
-	    	 "image": "assest/images/ITA.png"
+	    	 "image": "assets/images/ITA.png"
 	    	 },
 	    "id": 9,
 	    "bike": "ART",
@@ -133,11 +133,11 @@
 	{
 	    "name" : "Karel Abraham",
 	 	"image": [
-	 	     "assest/images/rider_6867.jpg"
-	 	],
+			"assets/images/rider_6867.jpg"
+		],
 	    "country": {
 	        "name": "Czech Republic",
-	    	 "image": "assest/images/CZE.png"
+	    	 "image": "assets/images/CZE.png"
 	    	 },
 	    "id": 17,
 	    "bike": "Honda",
@@ -148,10 +148,12 @@
 	},
 	{
 	    "name" : "Alvaro Bautista",
-	 	"image": ["assest/images/rider_4323.jpg"],
+	 	"image": [
+			"assets/images/rider_4323.jpg"
+		],
 	    "country": {
 	        "name": "SPAIN",
-	    	 "image": "assest/images/SPA.png"
+	    	 "image": "assets/images/SPA.png"
 	    	 },
 	    "id": 19,
 	    "bike": "Honda",
@@ -162,10 +164,12 @@
 	},
 	{
 	    "name" : "Broc Parkes",
-	 	"image": ["assest/images/rider_5623.jpg"],
+	 	"image": [
+			"assets/images/rider_5623.jpg"
+		],
 	    "country": {
 	        "name": "AUSTRALIA",
-	    	 "image": "assest/images/AUS.png"
+	    	 "image": "assets/images/AUS.png"
 	    	 },
 	    "id": 23,
 	    "bike": "PBM",
@@ -176,10 +180,12 @@
 	},
 	{
 	    "name" : "Andrea Iannone",
-	 	"image": ["assest/images/rider_5623.jpg"],
+	 	"image": [
+			"assets/images/rider_5623.jpg"
+		],
 	    "country": {
 	        "name": "AUSTRALIA",
-	    	 "image": "assest/images/AUS.png"
+	    	 "image": "assets/images/AUS.png"
 	    	 },
 	    "id": 29,
 	    "bike": "Ducati",
@@ -190,10 +196,12 @@
 	},
 	{
 	    "name" : "Cal Crutchlow",
-	 	"image": ["assest/images/rider_8010.jpg"],
+	 	"image": [
+			"assets/images/rider_8010.jpg"
+		],
 	    "country": {
 	        "name": "UK",
-	    	 "image": "assest/images/GBR.png"
+	    	 "image": "assets/images/GBR.png"
 	    	 },
 	    "id": 35,
 	    "bike": "Ducati",
@@ -204,10 +212,12 @@
 	},
 	{
 	    "name" : "Bradley Smith",
-	 	"image": ["assest/images/rider_7030.jpg"],
+	 	"image": [
+			"assets/images/rider_7030.jpg"
+		],
 	    "country": {
 	        "name": "UK",
-	    	 "image": "assest/images/GBR.png"
+	    	 "image": "assets/images/GBR.png"
 	    	 },
 	    "id": 38,
 	    "bike": "Yamaha",
@@ -218,10 +228,12 @@
 	},
 	{
 	    "name" : "Aleix Espargaro",
-	 	"image": ["assest/images/rider_6854.jpg"],
+	 	"image": [
+			"assets/images/rider_6854.jpg"
+		],
 	    "country": {
 	        "name": "SPAIN",
-	    	 "image": "assest/images/SPA.png"
+	    	 "image": "assets/images/SPA.png"
 	    	 },
 	    "id": 41,
 	    "bike": "Forward Yamaha",
@@ -232,10 +244,12 @@
 	},
 	{
 	    "name" : "Pol Espargaro",
-	 	"image": ["assest/images/rider_7086.jpg"],
+	 	"image": [
+			"assets/images/rider_7086.jpg"
+		],
 	    "country": {
 	        "name": "SPAIN",
-	    	 "image": "assest/images/SPA.png"
+	    	 "image": "assets/images/SPA.png"
 	    	 },
 	    "id": 44,
 	    "bike": "Yamaha",
@@ -246,10 +260,12 @@
 	},
 	{
 	    "name" : "Scott Redding",
-	 	"image": ["assest/images/rider_7173.jpg"],
+	 	"image": [
+			"assets/images/rider_7173.jpg"
+		],
 	    "country": {
 	        "name": "UK",
-	    	 "image": "assest/images/GBR.png"
+	    	 "image": "assets/images/GBR.png"
 	    	 },
 	    "id": 45,
 	    "bike": "Honda",
@@ -260,10 +276,12 @@
 	},
 	{
 	    "name" : "Mike Di Meglio",
-	 	"image": ["assest/images/rider_6204.jpg"],
+	 	"image": [
+			"assets/images/rider_6204.jpg"
+		],
 	    "country": {
 	        "name": "FRANCE",
-	    	 "image": "assest/images/FRA.png"
+	    	 "image": "assets/images/FRA.png"
 	    	 },
 	    "id": 63,
 	    "bike": "Avintia",
@@ -274,10 +292,12 @@
 	},
 	{
 	    "name" : "Yonny Hernandez",
-	 	"image": ["assest/images/rider_7761.jpg"],
+	 	"image": [
+			"assets/images/rider_7761.jpg"
+		],
 	    "country": {
 	        "name": "COLOMBIA",
-	    	 "image": "assest/images/COL.png"
+	    	 "image": "assets/images/COL.png"
 	    	 },
 	    "id": 68,
 	    "bike": "Ducati",
@@ -288,10 +308,12 @@
 	},	
 	{
 	    "name" : "Dani Pedrosa",
-	 	"image": ["assest/images/rider_5515.jpg"],
+	 	"image": [
+			"assets/images/rider_5515.jpg"
+		],
 	    "country": {
 	        "name": "SPAIN",
-	    	 "image": "assest/images/SPA.png"
+	    	 "image": "assets/images/SPA.png"
 	    	 },
 	    "id": 26,
 	    "bike": "Honda",
@@ -302,10 +324,12 @@
 	},
 	{
 	    "name" : "Nicky Hayden",
-	 	"image": ["assest/images/rider_6200.jpg"],
+	 	"image": [
+			"assets/images/rider_6200.jpg"
+		],
 	    "country": {
 	        "name": "USA",
-	    	 "image": "assest/images/USA.png"
+	    	 "image": "assets/images/USA.png"
 	    	 },
 	    "id": 69,
 	    "bike": "Honda",
@@ -316,10 +340,12 @@
 	},
 	{
 	    "name" : "Michael Laverty",
-	 	"image": ["assest/images/rider_8271.jpg"],
+	 	"image": [
+			"assets/images/rider_8271.jpg"
+		],
 	    "country": {
 	        "name": "UK",
-	    	 "image": "assest/images/GBR.png"
+	    	 "image": "assets/images/GBR.png"
 	    	 },
 	    "id": 70,
 	    "bike": "PBM",
@@ -330,10 +356,12 @@
 	},
 	{
 	    "name" : "Jorge Lorenzo",
-	 	"image": ["assest/images/rider_6060.jpg"],
+	 	"image": [
+			"assets/images/rider_6060.jpg"
+		],
 	    "country": {
 	        "name": "SPAIN",
-	    	 "image": "assest/images/SPA.png"
+	    	 "image": "assets/images/SPA.png"
 	    	 },
 	    "id": 99,
 	    "bike": "Yamaha",

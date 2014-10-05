@@ -1,0 +1,30 @@
+<section class="span2">
+<label>Search:
+	<input ng-model="query">
+</label>
+<label>Order:
+	<select ng-model="orderProp">
+    	<option value="id">Id</option>
+        <option value="name">Name</option>
+        <option value="country.name">Country</option>
+    </select>
+</label>
+</section>
+<section class="span10">
+	<ul>
+    	<li ng-repeat="rider in riders | filter:query | orderBy: orderProp" class="thumbnail riders-listing">
+        	<a href="#/rider/{{rider.id}}">
+            	<img alt="{{rider.name}}" ng-src="{{rider.image[0]}}">
+            </a>
+            <div>
+            	<p>
+                	<img alt="{{rider.country.name}}" ng-src="{{rider.country.image}}">
+                	<span>{{rider.id}}</span>
+                </p>
+                <p>
+                	<a href="#/rider/{{rider.id}}" >{{rider.name}}</a>
+                </p>
+            </div>
+        </li>
+    </ul>
+</section>
